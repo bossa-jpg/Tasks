@@ -1,8 +1,8 @@
 const minimum = (a, b) => {
     let result = 0;
-    if(a > b){
+    if (a > b) {
         result = b;
-    }else{
+    } else {
         result = a;
     }
     return result;
