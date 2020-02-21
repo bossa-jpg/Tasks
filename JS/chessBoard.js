@@ -2,7 +2,6 @@
 let board = ' ';
 let width = 8;
 let height = 8;
-let biba = '';
 for (let stringCount = 0; stringCount < height; stringCount++) {
     for (let symbolCount = 0; symbolCount < (width); symbolCount++) {   
         if (symbolCount % 2) {          //Каждый второй символ - "#"
