@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active{outline: none};
+a:focus, a:active{outline: none};
+
+nav, footer, header, aside{display:block};
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit};
+
+input::-ms-clear{display: none};
+button{cursor: pointer};
+button::-moz-focus-inner{padding: 0; border: 0;};
+a, a:visited{text-decoration: none};
+a:hover{text-decoration:none};
+ul li{list-style: none};
+img{vertical-align: top;}
+
+h1, h2, h3, h4, h5, h5{font-size: inherit; font-weight: 400;}
+/* ------------------ */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../image/tonari-no-totoro-moy-sosed.jpg) center/cover no-repeat fixed;
+}
+
+.title{
+    margin: 5%;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(51, 34, 14);
+    text-shadow: 0 0 20px rgba(255, 235, 205, 0.788);
+}
+.description{
+    margin-top: 10px;
+    font-size: 20px;
+    text-shadow: 0 0 10px rgba(255, 235, 205, 0.788);
+}
+
+.border{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border:1px solid rgba(15, 119, 50, 0.692);
+    border-radius: 3px;
+    min-height: 30px;
+    color: rgba(51, 34, 14, 0.801);
+    font-size: 16px;
+}
+
+.border:focus{
+    border-color: rgba(82, 64, 44, 0.801);
+    box-shadow: 0 0 5px rgba(82, 64, 44, 0.801);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+label, .border, #photo, #animal, .radio{
+    margin: 0 0 10px;
+}
+
+label{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(51, 34, 14, 0.801);
+}
+
+.input, #dropdown, .radio{
+    display: inline-block;
+    color: rgba(51, 34, 14, 0.801);
+    font-size: 16px;
+}
+
+::-webkit-input-placeholder {color: rgba(51, 34, 14, 0.63); font-size: 14px;}
+::-moz-placeholder {color: rgba(51, 34, 14, 0.63); font-size: 14px;}
+:-moz-placeholder {color: rgba(51, 34, 14, 0.63); font-size: 14px;}
+:-ms-input-placeholder {color: rgba(51, 34, 14, 0.63); font-size: 14px;}
+
+form{
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow:0 0 10px rgba(82, 64, 44, 0.801);
+    background-color: rgba(128, 238, 113, 0.582);
+}
+
+textarea{
+    min-height: 100px;
+}
+
+button{
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    min-height: 40px;
+    border-radius: 4px;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+.reset-button{
+    background-color: rgb(250, 42, 42);
+}
+
+.submit-button{
+    background-color: rgb(49, 143, 37);
+}
+
+button:hover{
+    box-shadow:0 0 15px rgb(240, 214, 184);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

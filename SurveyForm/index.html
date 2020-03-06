@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Survey Form</title>
+    <div class="title">
+        <h1 id="title">My Survey Form</h1>
+        <p class="description" id="descripcion">I am intrested to know more about you.</p>
+    </div>
+</head>
+
+<body>
+    <form id="survey-form" action="#" method="POST" enctype="multipart/form-data"> 
+        <div class="form-name">
+            <p><label id="name-label" for="name">Name</label></p>
+            <input class="border" id="name" tabindex="1" placeholder="Enter your name" name="name" type="text" required>
+        </div>
+        <div class="form-email">
+            <p><label id="email-label" for="email">Email</label></p>
+            <input class="border" id="email" tabindex="3" placeholder="Enter your email" name="Email" type="email" required>
+        </div>
+        <div >
+            <p><label id="number-label" for="number">Telephon Number</label></p>
+            <input class="border" id="number" tabindex="4" placeholder="Enter your number" name="Number" min="11" max="11" type="tel">
+        </div>
+        <div id="radio">
+            <p><label for="radio">Your sex</label></p>
+            <div class="radio">
+                <p><input class="input-radio" checked type="radio" name="sex">Male</p>
+                <p><input class="input-radio" type="radio" name="sex">Female</p>
+                <p><input class="input-radio" type="radio" name="sex">Another</p>
+            </div>
+            <input class="border" type="text" name="another_sex" placeholder="Your gender...">
+        </div>
+        <div>
+            <p><label for="dropdown">What is your favorite cuisine?</label></p>
+            <select class="border" name="favorite_cuisine" id="dropdown" required>
+                <option disabled selected value>Select your favorite cuisine</option>
+                <option value="chinese">Chinese</option>
+                <option value="indian">Indian</option>
+                <option value="fastfood">Fastfood</option>
+                <option value="italian">Italian</option>
+                <option value="russian">Russian</option>
+                <option value="franch">Franch</option>
+            </select>
+        </div>
+        <div id="animal">
+            <p><label for="cat">What animals do you like?</label></p>
+            <div class="input">
+                <p><input checked type="checkbox" name="cat" value="yes">Cat</p>
+                <p><input checked type="checkbox" name="dog" value="yes">Dog</p>
+                <p><input type="checkbox" name="horse" value="yes">Horse</p>
+                <p><input type="checkbox" name="cow" value="yes">Cow</p>
+                <p><input checked type="checkbox" name="hamster" value="yes">Hamster</p>
+                <p><input type="checkbox" name="sister" value="yes">My little sister</p>
+            </div>
+        </div>
+        <div>
+            <p><label for="photo">Send me your photo</label></p>
+            <p><input type="file" id="photo" name="photo"></p>
+        </div>
+        <div>
+            <p><label for="words_for_me">And say somthing last</label></p>
+            <textarea class="border" name="words_for_me"></textarea>
+        </div>
+        <div >
+            <button class="submit-button" type="submit">Submit</button>
+        </div>
+        <div>
+            <button class="reset-button" type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>
