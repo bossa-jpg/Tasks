@@ -1,6 +1,6 @@
 const countChar = (string, letter) => {
     let count = 0;
-    for (let i = 0; i < string.length; i++) {
+    for (let i = 0; i < string.length; i++) { //Считает количество совпадений в строке по заданной букве.
         if (string[i] === letter) {
             count++
         }

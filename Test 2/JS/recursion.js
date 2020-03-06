@@ -1,4 +1,4 @@
-const isEven = num => {
+const isEven = num => { //определяет четное или нечетное заданное число.
     let even = 0;
     let odd = 1;
 
