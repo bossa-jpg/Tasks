@@ -1,14 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <header>
-        
-    </header>
+    <div class="container">
+        <header class="head" id="home">
+            <nav id="nav-bar">
+                <div><a class="nav-link" href="#home">Home</a></div>
+                <div><a class="nav-link" href="#content">Content</a></div>
+                <div><a class="nav-link" href="#own-project">Add your design</a></div>
+            </nav>
+            <div class="welcome">
+                
+                <div class="welcome__text">
+                    <div class="welcome__title">
+                    <h1>Welcome to <span>Avocode</span></h1>
+                </div>
+                <div class="welcome__subscribtion">
+                    <p>Folow this sample design to learn everything you need to know to use Avocode properly.</p>
+                </div>
+                </div>
+            <img class="icon" id="header-img" src="image/head/Illutration.svg"  alt="">
+        </div>
+        </header>
+
+        <div class="introducing">
+            <iframe id="video" width="727" height="409" src="https://www.youtube.com/embed/WuIS-m0B2cY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="basics" id="content">
+            <div class="basics__text">
+                <h2>Basics of the Avocode App</h2>
+                <p>Avocode UI is split into three main sections. A panel on the left, a large canvas to preview your
+                    designs in the middle, and inspector panel on the right for details about selected layers.</p>
+            </div>
+            <div>
+                <img class="basics__image" src="image/basics/UI.svg" alt="">
+            </div>
+            <div class="basics__details">
+                <div class="detail">
+                    <div class="detail-image">
+                        <img src="image/basics/Icon.svg" alt="">
+                    </div>
+                    <div class="description">
+                        <h2>Layers</h2>
+                        <p>Select any layer to export it, or to get web & mobile code, sizes..</p>
+                    </div>
+                </div>
+                <div class="detail">
+                    <div class="detail-image">
+                        <img src="image/basics/Icon-1.svg" alt="">
+                    </div>
+                    <div class="description">
+                        <h2>Versions</h2>
+                        <p>Keep track of design versions to avoid conflicts.</p>
+                    </div>
+                </div>
+                <div class="detail">
+                    <div class="detail-image">
+                        <img src="image/basics/Icon-2.svg" alt="">
+                    </div>
+                    <div class="description">
+                        <h2>Info</h2>
+                        <p>See details of the design including the list of all fonts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layer-styles">
+            <div class="layer-styles__text">
+                <h2>Get code from layer styles</h2>
+                <p>Export CSS, Swift, Android & React Native code from the Styles panel on your right.</p>
+                <h3>FOR EXAMPLE, TRY THE BUTTON BELOW</h3>
+                <button>click me</button>
+            </div>
+            <div class="layer-styles__image">
+                <img src="image/layer/layer.svg" alt="">
+            </div>
+        </div>
+        <div class="ruler-tool">
+            <div class="ruler-tool__figures">
+                <div class="circle">
+                    <div class="circle-border"></div>
+                </div>
+                <div class="measure">
+                    <div class="line"></div>
+                    <div class="value">100</div>
+                </div>
+                <div class="triangle">
+                    <div class="triangle-border"></div>
+                </div>
+            </div>
+            <div class="ruler-tool__title">Use the Ruler tool to measure distances</div>
+            <div class="ruler-tool__subtitle">
+                <p>Just hold<span> </span>to start using the Ruler tool.</p>
+                <div class="alt">alt</div>
+            </div>
+            <div class="ruler-tool__image">
+                <figure class="rules-image">
+                    <img src="image/rules/UI.svg" alt="">
+                </figure>
+                <div class="subscribe">
+                    <div class="hover-hint">
+                        <div class="arrow"></div>
+                        <div class="text">Measure (R)</div>
+                    </div>
+                    <div class="subscribe__icon">
+                    <div class="icon">
+                        <div class="triangle-figure">
+                            <div class="triangle-left">
+                                <div class="triangle-big"></div>
+                                <div class="triangle-small"></div>
+                            </div>
+                            <div class="triangle-right">
+                                <div class="triangle-big"></div>
+                                <div class="triangle-small"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon-text">Click the icon above and hover over other layers to see their distances.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="export">
+            <div class="export__info">
+            <div class="image"></div> 
+            <div class="info-text">
+                <h2>Select any layer and hit “<span>Export</span>”</h2>
+                <p>Choose if you want to export PNG, JPEG, SVG, or WebP.</p>
+                <p>You can also export the assets in various sizes for iOS and Android like @2x, @3x, xhdpi, etc.</p>
+                <div class="export-tip">
+                    <p><span>Tip</span>: You can select more layers at once by holding<div class="shift">shift</div></p>
+                    
+                </div>
+            </div>
+            </div>
+            <div class="export__icons">
+                <div class="svg-export">
+                    <img src="image/export/Icon.svg" alt="">
+                    <p>Export as one SVG image</p>
+                </div>
+                <div class="jpeg-export">
+                    <img src="image/export/Icon-1.svg" alt="">
+                    <p>Export as one merged JPEG image in @1x</p>
+                </div>
+                <div class="png-export">
+                    <img src="image/export/Icon-2.svg" alt="">
+                    <p>Export as separate PNGs in @1x and @2x</p>
+                </div>
+            </div>
+        </div>
+        <div class="color-picker">
+            <h2>Use the Color picker tool to inspect colors</h2>
+            <div class="color-picked__subtitle">
+                <p>Just press<span> </span>to start using the Color picker.</p>
+                <div class="i">i</div>
+            </div>
+            <div class="color-picked__images">
+                <div class="image-left">
+                    <img src="image/color-picked/Bitmap.png" alt="">
+
+                </div>
+                <div class="image-right">
+                    <img src="image/color-picked/UI Element.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="copy" id="own-project">
+            <div class="copy__text">
+                <h2>Copy this text to your clipboard.</h2>
+                <div class="subscribe">
+                    <p class="copy__text-subscride"><span class="span-color">Double click the text</span>, or just select it and press<span class="bigSpace"> </span>to copy.</p>
+                    <div class="ctrC">CMD/CTRL+C</div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="add">
+                    <div class="add__text">Now it’s time to add your own design</div>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                        <button id="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="add__form">
+                    <img class="form-image" src="image/add/Icon.png" alt="">
+                    <p class="icon-text">Drag & drop your design here</p>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

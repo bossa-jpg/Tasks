@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50.312" viewBox="0 0 50 50.312">
+  <g id="Icon" transform="translate(0 0)">
+    <ellipse id="Oval" cx="25" cy="25.156" rx="25" ry="25.156" transform="translate(0 0)" fill="#e74c3c"/>
+    <path id="Triangle" d="M12,0,24,23.962H0Z" transform="translate(13 10.983)" fill="#fff"/>
+  </g>
+</svg>

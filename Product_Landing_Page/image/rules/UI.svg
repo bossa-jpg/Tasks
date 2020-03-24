@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="730" height="336" viewBox="0 0 730 336">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Shape" width="729" height="80" rx="4" fill="#f0f0f0"/>
+    </clipPath>
+  </defs>
+  <g id="UI" transform="translate(1)">
+    <rect id="Shape-2" data-name="Shape" width="729" height="80" rx="4" fill="#f0f0f0"/>
+    <g id="Group_13" data-name="Group 13">
+      <g id="Left_panel" data-name="Left panel" transform="translate(0 80)">
+        <g id="Rectangle" fill="#fff" stroke="#f0f0f0" stroke-miterlimit="10" stroke-width="1">
+          <rect width="50" height="255" stroke="none"/>
+          <rect x="-0.5" y="-0.5" width="51" height="256" fill="none"/>
+        </g>
+        <g id="Tools" transform="translate(17 16)">
+          <path id="Shape-3" data-name="Shape" d="M0,0,6,18,8,9h8Z" transform="translate(1 50)" fill="#b1b1b1"/>
+          <path id="Shape-4" data-name="Shape" d="M5.016,18H14s2.8-8.531,3.794-10.806c.9-2.37-1.4-2.844-2.2-.664-.6,1.611-1.1,1.8-1.1,1.8s-1,0-.8-.948c.2-1.232.5-2.844.9-5.118.3-1.422-2.2-1.706-2.4-.474s-.7,4.36-.9,5.118c-.1.758-1.1,1.327-1.2-.474,0-1.232-.1-2.938-.1-5.308,0-1.611-2.7-1.422-2.7.095,0,1.043.1,5.213.1,5.972s-.4,1.043-.9-.095c-.6-1.232-1.2-2.654-1.7-3.791-.9-1.706-3-.569-2.5.664.4,1.043,1.5,3.412,2.3,5.213.4.948,1,2.749-.4,1.8A25.339,25.339,0,0,0,1.821,9c-1.1-.664-2.2.758-1.7,1.232a47.314,47.314,0,0,1,3.594,4.36A13.219,13.219,0,0,1,5.016,18Z" fill="#b1b1b1"/>
+          <path id="Shape-5" data-name="Shape" d="M.075,17.8a.639.639,0,0,1,0-.6l8.9-11.219,4.8,4.107c-.3.3-3.4,3.706-13,7.913C.575,18,.175,18,.075,17.8Zm9.3-12.42,3.5-4.407a2,2,0,0,1,2.4-.8c1.1.6.8,1.8.1,2.7l-.4.6-3.1,4.006Z" transform="translate(0 200)" fill="#b1b1b1"/>
+          <path id="Shape-6" data-name="Shape" d="M1.539,17.693l-1.2-1.31a1.526,1.526,0,0,1,0-1.915c.9-1.21,1.7-2.419,2.1-2.822l3.9-4.536a.49.49,0,0,0,0-.706l-.1-.1a.588.588,0,0,1,0-.706l1.3-1.512a1.9,1.9,0,0,1,1.6-.907h.1c.3,0,.3.1.9-.5l2-2.218a1.082,1.082,0,0,1,.6-.4,1.407,1.407,0,0,1,1.4.4l1.4,1.411a1.556,1.556,0,0,1,.4,1.512,2.506,2.506,0,0,1-.3.706L13.747,6.3c-.6.706-.5.706-.5,1.109a2.856,2.856,0,0,1-.8,1.814l-1.3,1.512a.481.481,0,0,1-.7,0,.481.481,0,0,0-.7,0l-3.9,4.435c-.4.5-1.4,1.411-2.5,2.52A1.237,1.237,0,0,1,2.459,18,1.237,1.237,0,0,1,1.539,17.693ZM13.246,7.411Z" transform="translate(1 150)" fill="#b1b1b1"/>
+          <path id="Shape-7" data-name="Shape" d="M6.1,18h0L0,12.1,11.9,0,18,5.9,6.1,18ZM2.8,11.2h0L2,12l3,3,.8-.8-3-3Zm3-3h0L5,9l3,3,.8-.8-3-3ZM4.3,9.7h0l-.8.8L5,12l.8-.8L4.3,9.7ZM8.8,5.2h0L8,6l3,3,.8-.8-3-3ZM7.3,6.8l-.8.7L8,9l.8-.8L7.3,6.8h0Zm4.5-4.6h0L11,3l3,3,.8-.8-3-3ZM10.2,3.7l-.7.8L11,6l.7-.8L10.2,3.7h0Z" transform="translate(0 100)" fill="#2e2e2e"/>
+        </g>
+      </g>
+      <g id="Tool_bar_-_Inspector" data-name="Tool bar - Inspector">
+        <g id="Rectangle_15" data-name="Rectangle 15" transform="translate(0 30)" fill="#fff" stroke="#f0f0f0" stroke-miterlimit="10" stroke-width="1">
+          <path d="M0,0H728a0,0,0,0,1,0,0V45a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+          <path d="M0-.5H728a.5.5,0,0,1,.5.5V45a4.5,4.5,0,0,1-4.5,4.5H0A.5.5,0,0,1-.5,49V0A.5.5,0,0,1,0-.5Z" fill="none"/>
+        </g>
+        <rect id="Rectangle_18" data-name="Rectangle 18" width="1" height="30" transform="translate(72)" fill="#dadada" opacity="0.6"/>
+        <g id="Navigation" transform="translate(20 45)">
+          <text id="UI_Kit" data-name="UI Kit" transform="translate(61 1)" fill="#777" font-size="13" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="14">UI Kit</tspan></text>
+          <path id="Path_2" data-name="Path 2" d="M0,0,6,5,0,10" transform="translate(35 5)" fill="none" stroke="#dadada" stroke-miterlimit="10" stroke-width="1"/>
+          <text id="TrainersVault" transform="translate(143 1)" fill="#2e2e2e" font-size="13" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="14">TrainersVault</tspan></text>
+          <path id="SvgjsPath1051" d="M10,0,5,7,0,0" transform="translate(238 7)" fill="#b1b1b1"/>
+          <path id="Path_2-2" data-name="Path 2" d="M0,0,6,5,0,10" transform="translate(117 5)" fill="none" stroke="#dadada" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Fill_1" data-name="Fill 1" d="M7.5,20A7.48,7.48,0,0,1,0,12.557,19.168,19.168,0,0,1,2.2,4.738C3.111,2.968,5.016,0,7.5,0s4.389,2.968,5.3,4.738A19.166,19.166,0,0,1,15,12.557,7.48,7.48,0,0,1,7.5,20Zm0-13.333c-2.2,0-3.75,3.992-3.75,6.153a3.752,3.752,0,0,0,7.5,0C11.251,10.707,9.79,6.666,7.5,6.666Z" fill="#b1b1b1"/>
+        </g>
+        <g id="Modes" transform="translate(298 45)">
+          <rect id="Rectangle_3" data-name="Rectangle 3" width="1" height="20" fill="#dadada"/>
+          <g id="Inspect" transform="translate(31 1)">
+            <text id="INSPECT-2" data-name="INSPECT" transform="translate(26)" fill="#2e2e2e" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="13">INSPECT</tspan></text>
+            <path id="SvgjsPath1042" d="M10,12V9l3-3L10,3V0l6,6-6,6ZM6,12l0,0L0,6,6,0V3L3,6,6,9v3Z" transform="translate(0 3)" fill="#00bc87"/>
+          </g>
+          <g id="Comments" transform="translate(137 1)">
+            <text id="COMMENTS_9_" data-name="COMMENTS (9)" transform="translate(26)" fill="#777" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="13">COMMENTS (9)</tspan></text>
+            <path id="Shape-8" data-name="Shape" d="M4,13H2a2.151,2.151,0,0,1-2-2V2A2.151,2.151,0,0,1,2,0H14a2.151,2.151,0,0,1,2,2v9a2.151,2.151,0,0,1-2,2H7L4,16Z" transform="translate(0 2)" fill="#b1b1b1"/>
+            <g id="Oval_2" data-name="Oval 2" transform="translate(12)" fill="#e74c3c" stroke="#fff" stroke-miterlimit="10" stroke-width="2">
+              <circle cx="3" cy="3" r="3" stroke="none"/>
+              <circle cx="3" cy="3" r="4" fill="none"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Tab_bar_-_Mac" data-name="Tab bar - Mac" transform="translate(9)">
+      <g id="Oval_5" data-name="Oval 5" transform="translate(0 11)" fill="#ff4344" stroke="rgba(0,0,0,0.2)" stroke-miterlimit="10" stroke-width="1">
+        <circle cx="6" cy="6" r="6" stroke="none"/>
+        <circle cx="6" cy="6" r="5.5" fill="none"/>
+      </g>
+      <g id="Oval_5-2" data-name="Oval 5" transform="translate(20 11)" fill="#ffb100" stroke="rgba(0,0,0,0.2)" stroke-miterlimit="10" stroke-width="1">
+        <circle cx="6" cy="6" r="6" stroke="none"/>
+        <circle cx="6" cy="6" r="5.5" fill="none"/>
+      </g>
+      <g id="Oval_5-3" data-name="Oval 5" transform="translate(40 11)" fill="#1bc819" stroke="rgba(0,0,0,0.2)" stroke-miterlimit="10" stroke-width="1">
+        <circle cx="6" cy="6" r="6" stroke="none"/>
+        <circle cx="6" cy="6" r="5.5" fill="none"/>
+      </g>
+      <g id="Tabs" transform="translate(73)">
+        <g id="_1" data-name="1" transform="translate(0 8)">
+          <path id="SvgjsPath1013" d="M6,2,4,0H0V10H13V2Z" transform="translate(0 3)" fill="#b1b1b1"/>
+          <text id="Project_manager" data-name="Project manager" transform="translate(23 12)" fill="#777" font-size="11" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">Project manager</tspan></text>
+        </g>
+        <g id="_2" data-name="2" transform="translate(209)">
+          <rect id="Rectangle_2" data-name="Rectangle 2" width="220" height="31" fill="#fff"/>
+          <path id="SvgjsPath1055" d="M6.334,7.667,4,5.334,1.668,7.667,1.335,8,1,7.667.334,7,0,6.667l.334-.334L2.667,4,.334,1.667,0,1.333.334,1,1,.333,1.335,0l.333.333L4,2.666,6.334.333,6.667,0,7,.333,7.668,1,8,1.333l-.334.334L5.335,4,7.668,6.333,8,6.667,7.668,7,7,7.667,6.667,8Z" transform="translate(202 12)" fill="#828282"/>
+          <text id="TrainersVault-2" data-name="TrainersVault" transform="translate(30 20)" fill="#2e2e2e" font-size="11" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">TrainersVault</tspan></text>
+          <path id="SvgjsPath1016" d="M0,12V0H6V4h4v8ZM7,3V0l3,3Z" transform="translate(10 10)" fill="#2e2e2e"/>
+        </g>
+        <g id="_3" data-name="3" transform="translate(439 8)">
+          <path id="SvgjsPath1055-2" data-name="SvgjsPath1055" d="M6.334,7.667,4,5.334,1.668,7.667,1.335,8,1,7.667.334,7,0,6.667l.334-.334L2.667,4,.334,1.667,0,1.333.334,1,1,.333,1.335,0l.333.333L4,2.666,6.334.333,6.667,0,7,.333,7.668,1,8,1.333l-.334.334L5.335,4,7.668,6.333,8,6.667,7.668,7,7,7.667,6.667,8Z" transform="translate(192 4)" fill="#b1b1b1"/>
+          <text id="ui_kit_final.psd" transform="translate(20 12)" fill="#777" font-size="11" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">ui_kit_final.psd</tspan></text>
+          <path id="SvgjsPath1016-2" data-name="SvgjsPath1016" d="M0,12V0H6V4h4v8ZM7,3V0l3,3Z" transform="translate(0 2)" fill="#b1b1b1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

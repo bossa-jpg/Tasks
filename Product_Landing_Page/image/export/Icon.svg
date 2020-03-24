@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50.312" viewBox="0 0 50 50.312">
+  <g id="Icon" transform="translate(0 0)">
+    <ellipse id="Oval" cx="25" cy="25.156" rx="25" ry="25.156" transform="translate(0 0)" fill="#ffa800"/>
+    <g id="Shape" transform="translate(12 14.079)">
+      <path id="Shape-2" data-name="Shape" d="M2.229,12.969l10.819,10.8a.655.655,0,0,0,.926,0l10.819-10.8A7.6,7.6,0,0,0,14.031,2.225a2.877,2.877,0,0,0-.521,1.39,6.4,6.4,0,0,0-.521-1.39A7.6,7.6,0,1,0,2.229,12.969Z" transform="translate(-1)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

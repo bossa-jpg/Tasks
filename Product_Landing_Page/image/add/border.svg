@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="361" height="363.996" viewBox="0 0 361 363.996">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #b1b1b1;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+        stroke-dasharray: 10;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle_6_Copy" data-name="Rectangle 6 Copy" class="cls-1">
+    <rect class="cls-2" width="361" height="363.996" rx="30"/>
+    <rect class="cls-3" x="2" y="2" width="357" height="359.996" rx="28"/>
+  </g>
+</svg>
