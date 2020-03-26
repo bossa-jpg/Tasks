@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>SASS Documentation</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header class="nav__header">SASS Documentation</header>
+        <div class="nav__container">
+            <ul>
+                <li><a href="#Sass Benefits">Sass Benefits</a></li>
+                <li><a href="#Usage in Rack / Rails / Merb">Usage in Rack / Rails / Merb</a></li>
+                <li><a href="#Caching">Caching</a></li>
+                <li><a href="#Settings">Settings</a></li>
+                <li><a href="#Syntax Selection">Syntax Selection</a></li>
+                <li><a href="#Encoding">Encoding</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section">
+            <header id="Sass Benefits">Sass Benefits</header>
+            <ul>
+                <li>
+                    <article>
+                        <h2>Full CSS Compatibility</h2>
+                        <p>Sass is fully compatible with all versions of CSS. We pay serious attention to compatibility, so you can easily use any available CSS libraries.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h2>Rich functionality</h2>
+                        <p>Sass boasts more features than any other CSS extension language. The Sass Core team works endlessly not only to maintain these capabilities, but also to be in the lead.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h2>Experience</h2>
+                        <p>Sass has been under active development for over 8 years.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h2>Industry support</h2>
+                        <p>Again and again, the development community selects Sass as the primary means of writing CSS.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h2>Large community</h2>
+                        <p>Sass is actively supported and developed by a consortium of high-tech companies and several hundred developers.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                    <h2>Frameworks</h2>
+                    <p>There are an infinite number of frameworks built on Sass. Compass, Bourbon, and Susy are just a few of the total examples.</p>
+                </article>
+            </li>
+            </ul>
+        </section>
+        <section class="main-section">
+            <header id="Usage in Rack / Rails / Merb">Usage in Rack / Rails / Merb</header>
+            <article>
+                <p>To enable Sass in Rails version lower than 3, specify the <kbd>environment.rbfollowing</kbd> line in the file :</p>
+                <code>config.gem "sass"</code>
+                <p>For Rails 3, instead of the above, write to the Gemfile:</p>
+                <code>gem "sass"</code>
+                <p>To connect Sass in Merb version lower than 3, specify the <kbd>config/dependencies.rbfollowing</kbd> line in the file :</p>
+                <code>dependency "merb-haml"</code>
+                <p>To connect Sass in a Rack application, specify in the file <kbd>config.ru</kbd>:</p>
+                <code>require 'sass/plugin/rack'
+                    use Sass::Plugin::Rack</code>
+                    <p><span class="bold-span">Sass itself does not work as a style sheet.</span> It does not wrap dynamic content, in order for everything to work, you need to generate a CSS file immediately after updating the Sass file.</p>
+                    <p>By default, files <kbd>.sass</kbd> and <kbd>.scss</kbd> are <kbd>public/stylesheets/sass</kbd> (can be changed with the option : template_location ). Then, when necessary, they are compiled into the appropriate CSS files in <kbd>public/stylesheets</kbd>. For example, it <kbd>public/stylesheets/sass/main.scsswill</kbd> be compiled to <kbd>public/stylesheets/main.css</kbd>.</p>
+            </article>
+        </section>
+        <section class="main-section">
+            <header id="Caching">Caching</header>
+            <article>
+                <p>By default, Sass caches compiled templates and fragments. This greatly speeds up the recompilation of large collections of Sass files, and works best if Sass templates are split into separate files that are imported into a single file.</p>
+                <p>Without the use of frameworks, Sass puts cached templates in a folder <kbd>sass-cache</kbd>. In Rails and Merb in a folder <kbd>tmp/sass-cache</kbd>. The folder can be changed using the option : cache_location . If you do not want to use the cache Sass, you can disable this feature if parameter : cache specify the value <kbd>false</kbd>.</p>
+            </article>
+        </section>
+        <section class="main-section">
+            <header id="settings">Settings</header>
+            <article>
+                <p>Settings can be specified in the format Sass :: Plugin # options and written to <kbd>environment.rbin</kbd> Rails or <kbd>config.ruin</kbd> Rack ...</p>
+                <code>Sass::Plugin.options[:style] = :compact</code>
+                <p>... or setting up <kbd>Merb::Plugin.config[:sass]</kbd> to write <kbd>init.rb</kbd> to Merb ...</p>
+                <code>Merb::Plugin.config[:sass][:style] = :compact</code>
+                <p>... or by passing the hash to Sass :: Engine # initialize . All relevant options are available through the sass and scss labels on the command line.</p>
+            </article>
+        </section>
+        <section class="main-section">
+            <header id="Syntax Selection">Syntax Selection</header>
+            <article>
+                <p>If you work with Sass through the command line, then the syntax is determined through the file extension. However, the syntax can be chosen not only by the file extension. The default syntax is the indentation syntax, but you can change the syntax by applying a parameter <kbd>--scss</kbd>, and then the input file will be read as a file with scss syntax. In addition, you can use sass syntax commands with scss syntax and they will also be executed.</p>
+            </article>
+        </section>
+        <section class="main-section">
+            <header id="Encoding">Encoding</header>
+            <article>
+                <p>When using Ruby 1.9 or later, Sass will determine the encoding of the file itself. To determine the encoding of the stylesheet, Sass uses CSS specifications , after determining Sass returns the encoding to Ruby for proper compilation. This means that the Unicode byte order is read first, followed by the directive <kbd>@charset</kbd>, then the Ruby string encoding. If none of them are strictly defined, then the document is assigned the default value - <kbd>UTF-8</kbd>.</p>
+                <p>To explicitly specify the style sheet encoding, use the directive <kbd>@charset</kbd> as in regular CSS. Add a construct <kbd>@charset "name uncoding"</kbd> at the beginning of the style sheet (without missing spaces and before any comments) and Sass will interpret this as the specified encoding. Please note that whatever encoding you use, it must be converted to Unicode.</p>
+                <p>Sass will always compile the resulting files in UTF-8 encoding. Such files will always have a record <kbd>@charset</kbd> if, and only in this case, the resulting file will contain non-ASCII content. In a compressed style in UTF-8 encoding, the bytes allocated for the directive <kbd>@charset</kbd> will be marked as used.</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
